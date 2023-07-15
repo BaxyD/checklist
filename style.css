@@ -1,3 +1,27 @@
 .checklist {
     margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+input[type='checkbox'] {
+    margin-right: 5px;
+}
+.crossed-out {
+    text-decoration: line-through;
+    color:red;
+}
+li:hover{
+    cursor: pointer;
+}
+html {
+    background: linear-gradient(to right, rgb(253, 124, 4), yellow);
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
