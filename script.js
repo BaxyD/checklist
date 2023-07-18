@@ -15,5 +15,15 @@ document.getElementById('myInput').addEventListener('keydown', function(event) {
         this.value = ''; // clear the input field
     }
 })
+function toggleTab() {
+    const tabContent = document.querySelector('.tab-content');
 
+    if (tabContent.computedStyleMap.display === 'none') {
+        tabContent.style.display = 'block';
+        tabContent.style.left = '0';
+    } else {
+        tabContent.style.display = 'none';
+        tabContent.style.left = '-180px';
+    }
+}
 

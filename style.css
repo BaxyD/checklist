@@ -1,6 +1,8 @@
 .checklist {
     margin-top: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    place-items: center;
 }
 ul {
     list-style-type: none;
@@ -24,4 +26,24 @@ html {
 }
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.pull-out-tab{
+    position: relative;
+    width: 200px;
+}
+.tab-handle {
+    background-color: rgb(250, 210, 81);
+    color: gray;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.tab-content{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -180px;
+    width: 180px;
+    background-color:rgb(250, 210, 81);
+    padding: 10px;
 }
