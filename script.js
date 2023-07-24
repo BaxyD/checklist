@@ -17,8 +17,8 @@ document.getElementById('myInput').addEventListener('keydown', function(event) {
 })
 function toggleTab() {
     const tabContent = document.querySelector('.tab-content');
-
-    if (tabContent.computedStyleMap.display === 'none') {
+    console.log('hello');
+    if (tabContent.style.display === 'none') {
         tabContent.style.display = 'block';
         tabContent.style.left = '0';
     } else {
